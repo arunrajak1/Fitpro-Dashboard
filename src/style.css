@@ -1,0 +1,10 @@
+@media (min-width: 640px) {
+    .custom-container {
+      flex-direction: row; /* Default: row for larger screens */
+    }
+  }
+  .hidden {
+    display: none !important;
+  }
+
+  

@@ -4,12 +4,12 @@ import Main from "./Main";
 
 const Home = () => {
   return (
-    <div>
-      <div className="container flex items-center justify-between gap-3 ml-5">
-        <div className=" mt-7 mx-2">
-          <h1 className="font-semibold text-2xl">Hello Arun</h1>
+    <div className="flex flex-wrap bg-gray-100">
+    <div className="container flex items-center justify-between  ">
+    <div className="mt-5 sm:mt-7 ml-10 sm:ml-5">       
+       <h1 className="font-semibold text-xl">Hello Arun</h1>
         </div>
-        <div className="mr-10 mt-7">
+        <div className="mt-5 sm:mt-7 mr-10 sm:mr-9 sm:ml-5 ">
           <span className="relative">
             <HiSearch
               color="#333"
